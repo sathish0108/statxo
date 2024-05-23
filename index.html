@@ -4,9 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive Header</title>
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <!-- <script src="script.js"></script> -->
     <!-- header section -->
     <header>    
       <div class="logo">
@@ -45,43 +47,44 @@
           <button class="part_button">&nbsp;&nbsp;&nbsp;partner with stato <button class="part_button1"><img src="./assets/arrow_upward.png" alt="STATX" /></button></button>
         </h1>
 
-      
-        <label style="width: 600px;" for="c1" class="card">
+
+        <label style="width: 600px;" for="c1" id="cards" class="card">
           <div class="row">
-            <div class="icon" id="icon1"></div>
-        <p>Streamline your business operations with process Transformation & Optimization</p>
+            <div class="icon" id="icon1">Process</div>
+        <p id="displayText">Streamline your business operations with process Transformation & Optimization</p>
             
           
           </div>
         </label>
         <input type="radio" name="slide" id="c2" />
-        <label for="c2" class="card">
+        <label for="c2" id="cards1" class="card">
           <div class="row">
             <div class="icon" id="icon2">Supply_Chain:</div>
           
-                <p class="more-text">Take control of procurement and supply chain tasks with AI-powered intelligence and analytics.</p>
-         
+               
 
          
           </div>
+          <p id="displayText1" style="display: none; color: #fff;">Take control of procurement and supply chain tasks with AI-powered intelligence and analytics.</p>
+         
         </label>
         <input type="radio" name="slide" id="c3" />
-        <label for="c3" class="card">
+        <label for="c3" id="cards2" class="card">
           <div class="row">
             <div class="icon" id="icon3">Market:</div>
           
-                <p style="display: none;">Gain a competitive edge with AI-Powered Market Intelligence.</p>
+                <p id="displayText2"   style="display: none; color: #fff;">Gain a competitive edge with AI-Powered Market Intelligence.</p>
         
  
            
           </div>
         </label>
         <input type="radio" name="slide" id="c4" />
-        <label for="c4" class="card">
+        <label for="c4" id="cards3" class="card">
           <div class="row">
             <div class="icon" id="icon4">Analytics:</div>
        
-                <p style="display: none;">Uncover hidden insights and boost revenue, efficiency, and innovation with Advanced Analytics & Automation</p>
+                <p id="displayText3" style="display: none; color: #fff;">Uncover hidden insights and boost revenue, efficiency, and innovation with Advanced Analytics & Automation</p>
            
           
 
@@ -208,8 +211,7 @@
       <br />
       <br />
       <h1 style="margin-left: 5%">Harness the potential of intelligent <br />procurment for your business</h1>
-      <button style="margin-left: 38%; background-color: white; border: none; border-radius: 5px; width: 200px;
-      height: 30px;">Partner with Statxo Today</button>
+      <button class="partner-button">Partner with Statxo Today</button>
     </div>
     <br />
     <br />
@@ -373,8 +375,9 @@
                 <p>Our solutions provide quantifiable returns through validated cost savings, productivity gains and revenue uplift.</p>
                 <img src="./single-container-asset/icon6.png" >
             </div>
+            <h2>Human+Tech Approach</h2>
             <div class="item">
-                <h2>Human+Tech Approach</h2>
+              
                 <p>Our teams combine deep subject matter expertise with advanced analytics, automation and digital capabilities.</p>
                 <img src="./single-container-asset/icon7.png" >
             </div>
@@ -426,15 +429,30 @@
 
             <div class="image-footer-left-side">
                 <img src="./assets/Rectangle 22.png" alt="Big Image" class="big-image">
-                
-                 
+                <div></div>
+                 <br>
+                 <br>
                
+                <h2>Unlocking the Power of Spend Analytics</h2>
+                <p> Organizations of all scales are constantly seeking ways to gain a competitive edge. Spend analytics platforms have revolutionized the way procurement and spending are being monitored. According to Mordor Intelligence, the spend analytics market is expected to grow at a CAGR of 17.9% from 2022 to 2027.</p>
             </div>
-          
+            
             <div class="image-footer-right-side">
                 <img src="./assets/Rectangle 23.png" alt="Small Image 1" class="small-image">
-                <img src="./assets/Rectangle 24.png" alt="Small Image 2" class="small-image">
-                <img src="./assets/Rectangle 43.png" alt="Small Image 3" class="small-image">
+                <p>People like you --- 8 min read</p>
+                <h2>The Future of Sourcing and Procurement with Generative AI</h2>
+                <p>Sourcing and procurement operations significantly drive a company’s success. According to Kearney, procurement’s</p>
+                <p>Read More</p>
+                <div class="image-footer-right-side-down">
+                    <img src="./assets/Rectangle 24.png" alt="Small Image 2" class="small-image-down">
+                    <p>People like you --- 8 min read</p>
+                    <h3>Insurance: Digital Transformation & Personalization are Disruptive Trends</h3>
+                    <img src="./assets/Rectangle 43.png" alt="Small Image 3" class="small-image-down">
+                    <p>People like you --- 8 min read</p>
+
+                    <h3>Future of Procurement – Transformation with Automated & Data Driven Processes</h3>
+                </div>
+            
             </div>
     </div>
    <br>
@@ -460,6 +478,80 @@
             <p> Privacy Notice &nbsp;Cookie Policy &nbsp;Disclaimer&nbsp;Security Policy<br>Customize cookies</p>
          
         </div>
+
+        <script>
+
+            const process = document.getElementById('icon1');
+            const button = document.getElementById('cards');
+
+            const button1 = document.getElementById('cards1');
+            const button2 = document.getElementById('cards2');
+            const button3 = document.getElementById('cards3');
+            const displayText= document.getElementById('displayText');
+
+            const displayText1= document.getElementById('displayText1');
+            const displayText2 = document.getElementById('displayText2');
+            const displayText3 = document.getElementById('displayText3');
+
+            button.addEventListener('mouseover', function() {
+                displayText.style.display = 'block';
+          
+            });
+    
+            button1.addEventListener('mouseover', function() {
+                displayText1.style.display = 'block';
+                displayText.style.display = 'none';
+                process.style.transform ='translate(-15%, -488%) rotate(-90deg)';
+                button.style.width='100px';
+            });
+    
+            button2.addEventListener('mouseover', function() {
+                displayText2.style.display = 'block';
+                displayText.style.display = 'none';
+                process.style.transform ='translate(-15%, -488%) rotate(-90deg)';
+
+                button.style.width='100px';
+
+            });
+            button3.addEventListener('mouseover', function() {
+                displayText3.style.display = 'block';
+                displayText.style.display = 'none';
+                process.style.transform ='translate(-15%, -488%) rotate(-90deg)';
+
+                button.style.width='100px';
+
+            });
+
+            button.addEventListener('mouseout', function() {
+                displayText.style.display = 'block';
+          
+            });
+
+            button1.addEventListener('mouseout', function() {
+                displayText1.style.display = 'none';
+                button.style.width='600px';
+                process.style.transform ='translate(125%, -488%) rotate(0deg)';
+                displayText.style.display = 'block';
+
+
+
+            });
+    
+            button2.addEventListener('mouseout', function() {
+                displayText2.style.display = 'none';
+                process.style.transform ='translate(125%, -488%) rotate(0deg)';
+                displayText.style.display = 'block';
+
+                button.style.width='600px';
+            });
+            button3.addEventListener('mouseout', function() {
+                displayText3.style.display = 'none';
+                process.style.transform ='translate(125%, -488%) rotate(0deg)';
+                displayText.style.display = 'block';
+
+                button.style.width='600px';
+            });
+        </script>
     </footer>
   </body>
 </html>
