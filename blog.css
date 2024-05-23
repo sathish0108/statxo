@@ -7,7 +7,7 @@
   html {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif,;
+    font-family: 'Satoshi', sans-serif;
     background-color: #fff;
   }
   .wrapper {
@@ -173,13 +173,13 @@
   .content2{
   
     height: 30%;
-    border: 1px solid #eee;
+    border: 2px solid #8f8f8f;
   }
 
   .content3{
   
     height: 17%;
-    border: 1px solid #eee;
+    border: 2px solid #8f8f8f;
   }
 
   .content4{
@@ -188,4 +188,11 @@
     border-radius: 10px;
     height: 62%;
     width: 100%;
+  }
+
+  .ul-list{
+    margin-left: 7%;
+  }
+  .ul-list1{
+    margin-left: 7%;
   }
