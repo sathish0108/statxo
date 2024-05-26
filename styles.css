@@ -24,7 +24,7 @@
     align-items: center;
     background-color: #fff;
     padding: 20px 20px;
-    color: #a3246e;
+    /* color: #a3246e; */
     /* Border around the header */
     border-bottom: 2px solid #ddd;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -47,9 +47,10 @@
   }
   
   nav ul li a {
-    color: #a3246e;
+    background: linear-gradient(90deg, #A3246E, #B34526); -webkit-background-clip: text;
+    background-clip: text;  color: transparent;
     text-decoration: none;
-   
+   font-weight: bold;
     font-size: 18px;
     padding: 8px 12px;
     transition: background-color 0.3s ease;
@@ -115,6 +116,7 @@
     cursor: pointer;
     overflow: hidden;
     /* border-radius: 2rem; */
+    display: block;
     margin: 0 10px;
     display: flex;
     align-items: flex-end;
@@ -228,6 +230,8 @@
     background-image: url(./assets/Untitled\ design\ \(1\).jpg);
   }
   
+
+  
 .hidden-letter{
   display: none;
 }
@@ -241,8 +245,8 @@ background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     box-sizing: border-box;
-    background-color: #a72c5d; /* For browsers that do not support gradients */
-    background-image: linear-gradient(to right, #a72c5d, #ae3842);
+    /* background-color: #a72c5d;  */
+    background-image: linear-gradient(270deg, #A3246E, #B34526);
   }
   
   .scrolling-text {
@@ -326,8 +330,8 @@ background-color: #fff;
   
   /* harness */
   .harness {
-    background-color: #a72c5d; /* For browsers that do not support gradients */
-    background-image: linear-gradient(to right, #a72c5d, #ae3842);
+    /* background-color: #a72c5d; */
+    background-image: linear-gradient(90deg, #A3246E, #B34526);
     display: flex;
     color: white;
     height: 178px;
@@ -494,8 +498,8 @@ background-color: #fff;
   .read-more-btn_border {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #a72c5d; /* For browsers that do not support gradients */
-    background-image: linear-gradient(to right, #a72c5d, #ae3842);
+    /* background-color: #a72c5d; */
+    background-image: linear-gradient(90deg, #A3246E, #B34526);
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -744,6 +748,48 @@ background-color: #fff;
     .card-container_border {
       grid-template-columns: 1fr;
     }
+    .card[for="c1"] {
+      background-image: url(./assets/Untitled\ design.jpg);
+      /* background-size: auto; */  
+      display: none;
+      }
+    
+    .card[for="c2"] {
+      background-image: url(./assets/Untitled\ design\ \(4\).jpg);
+      display: none;
+   
+    }
+    
+    .card[for="c3"] {
+      background-image: url(./assets/Untitled\ design\ \(2\).jpg);
+      display: none;
+   
+    }
+    
+    .card[for="c4"] {
+      background-image: url(./assets/Untitled\ design\ \(1\).jpg);
+   
+      display: none;
+    }
+
+    
+
+    .slider {
+      display: block  ;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+    }
+    
+    .slide {
+      flex: 0 0 auto;
+      width: 100vw; /* Ensure each slide occupies the full viewport width */
+      scroll-snap-align: start;
+    }
+    
+    .slide img {
+      width: 100%;
+      height: auto;
+    }
      /* harness */
   .harness {
     background-color: #a72c5d;
@@ -793,5 +839,14 @@ background-color: #fff;
     }
     .card_anim {
       width: 100%;
+    }
+
+    .slider {
+      overflow-x: hidden;
+    }
+  
+    .slide {
+      flex: 0 0 calc(25% - 20px); /* Adjust width for four slides in a row with gap */
+      margin-right: 20px; /* Gap between slides */
     }
   }
