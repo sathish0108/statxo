@@ -339,6 +339,16 @@ font-size: 35px;
   } */
   
   /* /up down container in product */
+.spend-heading{
+
+  background: linear-gradient(90deg, #A3246E, #B34526); -webkit-background-clip: text;
+    background-clip: text;  color: transparent;
+  
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+}
+
 
   .up-down-container {
     display: flex;
@@ -374,11 +384,29 @@ font-size: 35px;
     border-radius: 8px;
     text-align: center;
   }
+  .up-card-down {
+    width: 602px;
+    height: 293px;
+    margin-bottom: 20px;
+    background-color: #FAE0E1;
+    /* border: 1px solid #ccc; */
+    border-radius: 8px;
+    text-align: center;
+  }
   .up-card p{
     margin-top: 13%;
     text-align: start;
-    margin-left: 13%;
+    margin-left: 5%;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
   }
+.up-card-down p{
+  margin-top: 13%;
+  text-align: start;
+  margin-left: 28%;
+}
+
   .up-small-card-right p{
     margin-top: 13%;
     text-align: center;
@@ -386,25 +414,29 @@ font-size: 35px;
   }
 
   .small-card-right {
-    width: 120px;
-    height: 100px;
-    margin-top: -19%;
+    width: 189px;
+    height: 137px;
+    margin-top: -28%;
     background-color: #fff;
     /* border: 1px solid #ccc; */
-    margin-left: 91%;
+    margin-left: 77%;
     border-radius: 8px;
     text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
+
+
   .up-small-card {
-    width: 120px;
-    height: 100px;
-    margin-top: -14%;
+    width: 189px;
+    height: 137px;  
+    margin-top: -20%;
     background-color: #fff;
     /* border: 1px solid #ccc; */
     margin-left: -7%;
     border-radius: 8px;
     text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
   h2 {
