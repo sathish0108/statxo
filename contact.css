@@ -1,0 +1,58 @@
+
+  
+  .contact-container {
+    display: none;
+    max-width: 400px;
+    margin: 0 auto;
+    background-image: linear-gradient(180deg, #A3246E, #B34526);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  
+  input[type=text], input[type=email], input[type=tel], select, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    background-color: #ffff;
+    color: #000;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-container {
+        display: none;
+      padding: 10px;
+    }
+    input[type=text], input[type=email], input[type=tel], select, textarea {
+      font-size: 14px;
+    }
+  }

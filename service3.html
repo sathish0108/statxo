@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STATXO - Solutions</title>
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="service.css" />
+    <link rel="stylesheet" href="contact.css" />
+
+</head>
+<body>
+     <!-- header section -->
+     <header>    
+       <div class="logo" onclick="toggleMenu()">
+          <a href="./index.html">
+          <img src="./assets/logo.png" alt="STATX" />
+          
+        </a>
+        <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <nav class="menu">
+          <ul>
+            <li><a href="./product.html">Product</a></li>
+            <li>
+              <a>Solutions</a>
+              <ul class="dropdown">
+                 <li><a href="./service.html">Process Transformation & Optimization</a></li>
+                <li><a href="./service1.html">Advanced Analytics</a></li>
+                <li><a href="./service2.html">Strategic Intelligence & Advisory(SI&A)</a></li>
+                <li><a href="./service3.html">Procurement & Supply Chain Transformation</a></li>
+              </ul>
+            </li>
+            <li><a href="./about.html">Company</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#careers">Careers</a></li>
+          </ul>
+        </nav>
+        
+      </header>
+  
+
+    <!-- service page header container -->
+     <div class="overall-container">
+          <div class="service-container3">
+      <div class="image-container1">
+        <!-- <img src="./services/bg4.png" alt="Big Image" style="width: 70% !important; height: 80% !important; margin-bottom: 100px !important;"> -->
+        <div class="contact-container" id="contactForm">
+          <form action="#" method="POST">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" required>
+            </div>
+            
+          
+            <div class="form-group">
+                <label for="message">Company Name</label>
+                <input type="text" id="company" name="company" required>
+              </div>
+           
+            <div class="form-group">
+              <label for="category">What Are You Looking For</label>
+              <select id="category" name="category">
+                <option value="general">Process Transformation & Optimization</option>
+                <option value="support">Advanced Analytics</option>
+                <option value="billing">Strategic Intelligence & Advisory(SI&A)</option>
+                <option value="feedback">Procurement & Supply Chain Transformation</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <button type="submit">Submit</button>
+              <button type="button" id="closeForm">Close</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="content-container1">
+        <img src="./services/Group 33.png" />
+        <br>
+        <br>
+        <p class="content-container-heading1">Drowning in Procurement Data?</p>
+        <br>
+        <br>
+        <p  class="content-container-paragraph1">Let our Procurement & Supply Chain Transformation reveal invisible insights to drive smarter spending decisions, identify savings and reduce supply chain risks.</p>
+    <br>
+        <button class="contact-button1" id="openForm">Get Started >></button>
+        
+      </div>
+
+    </div>
+
+
+
+
+
+
+   
+     <!-- services without scrolling container -->
+     <div class="scrolling-container">
+        <div class="scrolling-text">
+          <span onclick="scrollToContainer('container1')"> <p>Highlights</p></span>
+          <span onclick="scrollToContainer('container2')"> <p>Challenges </p></span>
+          
+          <span onclick="scrollToContainer('container3')"><p>Services</p></span>
+          <span onclick="scrollToContainer('container4')"> <p>Case Study </p></span>
+         
+          <span onclick="scrollToContainer('container5')"> <p>Our Methodology </p></span>
+         
+  
+  
+        </div>
+      </div>
+<br>
+          <!-- heading tag after without scrolling -->
+    <div class="data_heading">
+        <br />
+        <br />
+        <p style="font-size: 32px; font-weight: bold; text-align: center;">
+          Propel Procurement and Supply Chain Excellence with <span style="background: linear-gradient(90deg, #A3246E, #B34526); -webkit-background-clip: text;
+            background-clip: text;  color: transparent;"><br>Transformation & Optimization</span>
+          </p>
+    
+      <br>
+<br>
+    </div>
+
+    <!-- static cards container without animation -->
+    <div class="cards-containers" id="container1">
+        <br>
+        <br>
+      <div class="cards">
+      
+
+        <div class="cards-logo" style="margin-top: 12%;">
+          <img src="./services/service4icon/SERVICE ICON 4.1.png" alt="Logo 1" />
+        </div>
+        <div class="card-content">
+          <p style="font-weight: 700; font-size: 20px; font-family: Satoshi; ">Data-driven Insights</p>
+          <br>
+          
+          <p style="text-align: justify;">Gain foresight into spending and savings opportunities through spend forecasting, savings tracking & forecasting, tail spend analysis, and category insights.<br><br></p>
+     
+      
+          <!-- <p  style="color: #a3246e;font-family: Satoshi; font-weight: 600;font-family: Satoshi; font-size: 16px;   font-weight: 600; margin-top: 19%; margin-bottom: 0;">Learn more&nbsp; >></p> -->
+        </div>
+      </div>
+      <div class="cards1">
+      
+        <div class="cards-logo" style="margin-top: 12%;">
+          <img src="./services/service4icon/SERVICE ICON 4.3.png" alt="Logo 2" />
+        </div>
+        <div class="cards-content">
+          <p style="font-weight: 700; font-size: 20px; font-family: Satoshi; ">Process Optimization</p>
+          <br>
+       
+          <p style="text-align: justify;">Streamline operations for cost reduction and enhanced accuracy, leveraging insights from spend analysis and category intelligence.</p>
+        
+          <!-- <p  style="color: #a3246e; font-family: Satoshi; font-weight: 600;  font-size: 16px;     margin-top: 29%;" >Learn more &nbsp; >></p> -->
+        
+        </div>
+      </div>
+      <div class="cards2" >
+        <div class="cards-logo" style="margin-top: 12%">
+          <img src="./services/service4icon/SERVICE ICON 4.4.png" alt="Logo 3" />
+        </div>
+        <div class="cards-content">
+          <p style="font-weight: 700; font-size: 20px; font-family: Satoshi; ">Sustainability Integration</p>
+          <br>
+        
+          <p style="text-align: justify;">Align sourcing with environmental objectives for added value, with visibility into supplier sustainability performance.
+</p>
+     
+          <!-- <p  style="color: #a3246e; font-family: Satoshi; font-weight: 600; font-size: 16px;      margin-top: 29% !important;">Learn more &nbsp; >></p> -->
+       
+        </div>
+      </div>
+      <div class="cards3">
+        <div class="cards-logo" style="margin-top:12%;">
+          <img style="max-width: 60px;" src="./services/service4icon/SERVICE ICON 4.2.png" alt="Logo 4" />
+        </div>
+        <div class="cards-content">
+          <p style="font-weight: 700; font-size: 20px; font-family: Satoshi; ">Strategic Decision-making</p>
+          <br>
+   
+          <p style="text-align: justify;">Optimize strategies with real-time insights, cost modeling, and supplier risk monitoring for informed decisions
+</p>
+         
+          <!-- <p  style="color: #a3246e; font-family: Satoshi; font-weight: 600;  font-size: 16px;     margin-top: 27% !important;">Learn more &nbsp; >></p> -->
+       
+        </div>
+      </div>
+      <div class="cards4">
+
+        <div class="cards-logo" style="margin-top: 12%;">
+          <img src="./services/service4icon/SERVICE ICON 4.5.png" alt="Logo 5" />
+        </div>
+        <div class="cards-content">
+          <p style="font-weight: 700; font-size: 20px; font-family: Satoshi; ">Enhanced Operational Support</p>
+          <br>
+         
+          <p style="text-align: justify;">Streamline sourcing processes with robust assistance from AI-powered category insights and tail spend management.
+</p>
+         
+          <!-- <p  style="color: #a3246e; font-family: Satoshi; font-weight: 600; font-size: 16px;   margin-top: 27% !important; ">Learn more &nbsp; >></p> -->
+       
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+
+    <!-- full container image -->
+    <section class="counter-wrapper">
+      <div class="counter-inner">
+          <div class="counter-container">
+              <div class="counter-item">
+                  <i class="bi bi-building count-icon"></i>
+                  <div class="py-2 count">
+                      <span id="count1">82</span>%
+                  </div>
+                  <div> <span style="font-weight: 900;"> of procurement leaders acknowledge their indirect spend is not well managed</span> and that cost savings is being left behind as a result, found a recent report from Globality.</div>
+              </div>
+              <div class="counter-item">
+                  <i class="bi bi-people count-icon"></i>
+                  <div class="py-2 count">
+                    
+                      <span id="count2">78</span>%
+                  </div>
+                  <div> <span style="font-weight: 900;">of senior procurement decision managers emphasize the increasing importance of data in supplier negotiations,</span>  
+                    according to a recent study by Barclaycard Payments. </div>
+                  <br>
+              
+              </div>
+              <div class="counter-item">
+                  <i class="bi bi-trophy count-icon"></i>
+                  <div class="py-2 count">
+                      <span id="count3">54</span>%
+                  </div>
+                  <div> <span style="font-weight: 900;"> of businesses lack real-time visibility into their supply chains,</span> according to a Gartner report, making it difficult to identify and respond to disruptions effectively. </div>
+              </div>
+              <div class="counter-item">
+                  <i class="bi bi-graph-up count-icon"></i>
+                  <div class="py-2 count">
+                      <span id="count4">30</span>%
+                  </div>
+                  <div> <span style="font-weight: 900;"> of procurement data can be inaccurate</span> or incomplete.  
+                  </div>
+                  <br>
+              </div>
+              <div class="counter-item">
+                  <i class="bi bi-globe count-icon"></i>
+                  <div class="py-2 count">
+                      <span id="count5">3</span>%
+                  </div>
+                  <div> <span style="font-weight: 900;"> of businesses are confident</span> in the accuracy of their master data.</div>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+
+     <!-- heading tag after static container -->
+     <div class="data_headings" id="container3">
+        <br />
+        <br />
+        <p style="font-size: 32px; font-weight: bold; margin: 20px 0px 0px 0; text-align: center;">
+           <span style=" font-size: 32px;  font-weight: 700; margin-bottom: 10px; background: linear-gradient(270deg, #A3246E, #B34526); -webkit-background-clip: text;
+background-clip: text;  color: transparent;">Optimize Every Step of Your Procurement & Supply Chain </span><br />
+           <p style="font-size: 20px; text-align: center;">Empower your procurement with the transformative power of data, automation, and advanced generative AI. </p>
+
+    </div>
+    <!-- card container 3 x 2 -->
+    <!-- <div class="card-container-three">-->
+      <!-- <div class="card-three1">
+        <img src="./services/Vector 1.png" alt="Image 1">
+        <div class="overlay-three1" style="bottom: 5px !important;">
+          <div class="logo-three">
+            <img src="./top-bottom/Rectangle 122.png" alt="Logo-three">
+          </div>
+          <div  class="logo-three-logo">
+            <img src="./top-bottom/Group 25.png" alt="Logo-three">
+          </div>
+          <div class="text"  >
+            <div class="title-three">Intelligent Spend Analytics & Forecasting</div>
+            <div class="description-three" style="text-align: justify;">Leverage generative AI to uncover high-impact opportunities and accurately forecast spending patterns. </div>
+          </div>
+        </div>
+      </div> -->
+    
+      <!-- <div class="card-three">
+        
+        <img src="./services/Vector 1.png" alt="Image 1">
+        <div class="overlay-three1" style="bottom: 5px !important;">
+          <div class="logo-three">
+            
+            <img src="./top-bottom/Rectangle 123.png" alt="Logo-three">
+          </div>
+          <div class="logo-three-logo">
+            <img src="./top-bottom/Group 25.png" alt="Logo-three">
+          </div>
+          <div class="text" >
+            <div class="title-three" > AI-Powered Savings Tracking & Forecasting</div>
+            <div class="description-three" style="text-align: justify;">Monitor the impact of your cost-saving initiatives and use predictive analytics to forecast future savings. 
+            </div>
+            <br>
+          </div>
+        </div>
+      </div>
+   
+      <div class="card-three">
+        <img src="./services/Vector 1.png" alt="Image 1">
+        <div class="overlay-three1"  style="bottom: 15px !important;">
+          <div class="logo-three">
+            <img src="./top-bottom/Rectangle 124.png" alt="Logo-three">
+          </div>
+          <div class="logo-three-logo">
+            <img src="./top-bottom/Group 25.png" alt="Logo-three">
+          </div>
+          <div class="text"  >
+            <div class="title-three">Intelligent Tail Spend Analysis</div>
+            <div class="description-three" style="text-align: justify;">Harness the power of AI to identify and eliminate overlooked savings in your tail spend category. 
+            </div>
+            <br>
+          </div>
+        </div>
+      </div> -->
+    
+      <!-- Bottom two cards -->
+      <!-- <div class="card-three">
+        <img src="./services/Vector 1.png" alt="Image 1">
+        <div class="overlay-three1" style="bottom: -20px !important;" >
+          <div class="logo-three">
+            <img src="./top-bottom/Rectangle 125.png" alt="Logo-three">
+          </div>
+          <div class="logo-three-logo">
+            <img src="./top-bottom/Group 25.png" alt="Logo-three">
+          </div>
+          <div class="text" >
+            <div class="title-three"> Automated Master Data Management</div>
+            <div class="description-three"  style="text-align: justify;">Ensure data accuracy and consistency across procurement with AI-powered data cleansing and classification.</div>
+            <br>
+          </div>
+        </div>
+      </div>
+    
+    
+    </div>
+
+    <br>
+    <br> -->
+
+<div class="card-section1" id="container3">
+    <div class="filter">
+  
+      <!-- <button class="button --active" data-category="all">All</button> -->
+      <button class="button --active" data-category="smart-spend-management">Smart Spend Management</button>
+      <button class="button" data-category="collaborative-supplier-management">Collaborative Supplier Management</button>
+      <button class="button" data-category="Optimized-Category-Management">Optimized-Category-Management</button>
+   
+    </div>
+    
+
+
+    <section class="grid">
+
+      <a class="card" data-category="smart-spend-management"  rel="nofollow noopener">
+        <picture class="card__picture">
+          <img class="card__image" src="./services/service4card/1.jpg", alt="image">
+        </picture>
+        <!-- <span class="card__more"></span> -->
+        <div class="card__content">
+          <!-- <p class="card__location">Intelligent Spend Analytics & Forecasting</p> -->
+          <h3 class="card__title">Intelligent Spend Analytics & Forecasting</h3>
+          <p class="card__description">Leverage generative AI to uncover high-impact opportunities and accurately forecast spending patterns.</p>
+        </div>
+      </a>
+    
+      <a class="card" data-category="smart-spend-management"target="_blank" rel="nofollow noopener">
+        <picture class="card__picture">
+          <img class="card__image" src="./services/servicecard3.jpg", alt="image">
+        </picture>
+        <!-- <span class="card__more"></span> -->
+        <div class="card__content">
+          <h3 class="card__title">AI-Powered Savings Tracking & Forecasting</h3>
+          <p class="card__description">Monitor the impact of your cost-saving initiatives and use predictive analytics to forecast future savings. </p>
+        </div>
+      </a>
+    
+      <a class="card" data-category="smart-spend-management" target="_blank" rel="nofollow noopener">
+        <picture class="card__picture">
+          <img class="card__image" src="./services/servicetail.jpg", alt="image">
+        </picture>
+        <!-- <span class="card__more"></span> -->
+        <div class="card__content">
+          <h3 class="card__title">Intelligent Tail Spend Analysis</h3>
+          <p class="card__description">Harness the power of AI to identify and eliminate overlooked savings in your tail spend category. 
+          </p>
+        </div>
+      </a>
+    
+      <a class="card" data-category="smart-spend-management" target="_blank" rel="nofollow noopener">
+        <picture class="card__picture">
+          <img class="card__image" src="./services/service4card/4.jpeg", alt="image">
+        </picture>
+        <!-- <span class="card__more"></span> -->
+        <div class="card__content">
+
+          <h3 class="card__title">Automated Master Data Management</h3>
+          <p class="card__description">Ensure data accuracy and consistency across procurement with AI-powered data cleansing and classification. </p>
+        </div>
+      </a>
+  
+
+
+ 
+      <a class="card" data-category="collaborative-supplier-management" target="_blank" rel="nofollow noopener">
+        <picture class="card__picture">
+          <img class="card__image" src="./services/service4card/5.jpeg", alt="image">
+        </picture>
+        <!-- <span class="card__more"></span> -->
+        <div class="card__content">
+
+          <h3 class="card__title">Streamlined Supplier Onboarding</h3>
+          <p class="card__description">Accelerate the onboarding process and ensure compliance from the start with intelligent automation.</p>
+        </div>
+      </a>
+    
+      <a class="card"data-category="collaborative-supplier-management"  target="_blank" rel="nofollow noopener">
+        <picture class="card__picture">
+          <img class="card__image" src="./services/service4card/6.jpeg", alt="image">
+        </picture>
+        <!-- <span class="card__more"></span> -->
+        <div class="card__content">
+          <h3 class="card__title">AI-Powered Supplier Intelligence</h3>
+          <p class="card__description">Gain in-depth insights into your suppliers' capabilities, performance, and potential risks using advanced analytics.</p>
+        </div>
+      </a>
+    
+      <a class="card" data-category="collaborative-supplier-management"  target="_blank" rel="nofollow noopener">
+        <picture class="card__picture">
+          <img class="card__image" src="./services/service4card/7.jpeg", alt="image">
+        </picture>
+        <!-- <span class="card__more"></span> -->
+        <div class="card__content">
+          <h3 class="card__title">Intelligent Risk Assessment</h3>
+          <p class="card__description">Proactively identify and mitigate risks in your supplier network with AI-powered predictive analysis. </p>
+        </div>
+      </a>
+    
+    <a class="card" data-category="collaborative-supplier-management" target="_blank" rel="nofollow noopener">
+      <picture class="card__picture">
+        <img class="card__image" src="./services/service4card/9.jpeg", alt="image">
+      </picture>
+      <!-- <span class="card__more"></span> -->
+      <div class="card__content">
+        <h3 class="card__title">Supplier Performance Monitoring</h3>
+        <p class="card__description">Track KPIs and use AI to identify opportunities for continuous improvement in supplier relationships. </p>
+      </div>
+    </a>
+
+
+    <a class="card" data-category="collaborative-supplier-management" target="_blank" rel="nofollow noopener">
+      <picture class="card__picture">
+        <img class="card__image" src="./services/76659.jpg", alt="image">
+      </picture>
+      <!-- <span class="card__more"></span> -->
+      <div class="card__content">
+        <h3 class="card__title">Sustainable Sourcing Recommendations</h3>
+        <p class="card__description"> Integrate sustainability considerations into your sourcing strategies with AI-driven recommendations. </p>
+      </div>
+    </a>
+
+
+
+
+
+    <a class="card" data-category="Optimized-Category-Management"  target="_blank" rel="nofollow noopener">
+      <picture class="card__picture">
+        <img class="card__image" src="./services/service4card/11.jpeg", alt="image">
+      </picture>
+      <!-- <span class="card__more"></span> -->
+      <div class="card__content">
+        <h3 class="card__title">AI-Driven Category Insights & Sourcing Optimization</h3>
+        <p class="card__description">Use generative AI to generate insights and recommendations that optimize your sourcing strategies for each category. </p>
+      </div>
+    </a>
+    <a class="card" data-category="Optimized-Category-Management"  target="_blank" rel="nofollow noopener">
+      <picture class="card__picture">
+        <img class="card__image" src="./services/service4card/12.jpeg", alt="image">
+      </picture>
+      <!-- <span class="card__more"></span> -->
+      <div class="card__content">
+        <h3 class="card__title">Customized Category Mapping</h3>
+        <p class="card__description">Define a category structure that aligns with your unique business needs.</p>
+      </div>
+    </a>
+    <a class="card" data-category="Optimized-Category-Management"  target="_blank" rel="nofollow noopener">
+      <picture class="card__picture">
+        <img class="card__image" src="./services/service4card/13.jpeg", alt="image">
+      </picture>
+      <!-- <span class="card__more"></span> -->
+      <div class="card__content">
+        <h3 class="card__title"> Commodity Price Monitoring & Forecasting</h3>
+        <p class="card__description">Stay ahead of market fluctuations with real-time price insights and AI-powered predictive analytics. 
+        </p>
+      </div>
+    </a>
+    <a class="card" data-category="Optimized-Category-Management"  target="_blank" rel="nofollow noopener">
+      <picture class="card__picture">
+        <img class="card__image" src="./services/service4card/14.jpeg", alt="image">
+      </picture>
+      <!-- <span class="card__more"></span> -->
+      <div class="card__content">
+        <h3 class="card__title">  Smart Should Cost Modeling</h3>
+        <p class="card__description">Accurately determine optimal costs using AI-driven models to guide your sourcing decisions. 
+
+        </p>
+      </div>
+    </a>
+    <a class="card" data-category="Optimized-Category-Management"  target="_blank" rel="nofollow noopener">
+      <picture class="card__picture">
+        <img class="card__image" src="./services/servicecaed43.jpg", alt="image", alt=>
+      </picture>
+      <!-- <span class="card__more"></span> -->
+      <div class="card__content">
+        <h3 class="card__title">Streamlined RFX Process</h3>
+        <p class="card__description"> Leverage AI-powered recommendations to streamline your RFP/RFQ process and identify the most qualified suppliers.
+
+        </p>
+      </div>
+    </a>
+
+      </section>
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- space between two container -->
+  
+    <div class="slider">
+      <div class="slides">
+          <!-- Slide 1 -->
+          <div class="slide">
+              <div class="header-content" id="container4">
+                  <br>
+                  <p style="background: linear-gradient(90deg, #A3246E, #B34526); -webkit-background-clip: text; background-clip: text; color: transparent; font-weight: 700; margin-top: 20px; font-size: 32px;">Case Study</p>
+                  <p style="font-size: 24px; font-weight: 400;">Global Automotive Leader​</p>
+              </div>
+              <div class="container-space">
+                  <div class="container-content">
+                      <ul>
+                        <li>
+                          Achieved over 6% in total spend savings in the first year through improved visibility and analytics            <br><br>
+                        <li>
+                          Unified view of direct and indirect spend enabled consolidated supplier contracts and payment term optimization                           <br>
+              
+                        <li>
+                          Machine learning algorithms accurately forecast yearly spend and savings, facilitating data-driven decisions and tracking against goals        </ul>
+              
+                      </ul>
+                      <br>
+                      <button class="button-header">Read More &nbsp; >></button>
+                      <br><br><br>
+                  </div>
+                  <div class="content-space">
+                      <p style="font-family: Satoshi; font-size: 20px; font-weight: 500; font-style: italic; text-align: justify;">“Working with STATXO has been transformative for our organization. Their customized solutions provided us with real-time insights, streamlined processes, and unprecedented cost savings. We've not only met but exceeded our targets, thanks to their expertise and user-friendly dashboards. It's been a game-changer for us.<br><br> -CPO, Global Procurement 
+                      </p>
+                  </div>
+              </div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="slide">
+              <div class="header-content" id="container4">
+                  <br>
+                  <p style="background: linear-gradient(90deg, #A3246E, #B34526); -webkit-background-clip: text; background-clip: text; color: transparent; font-weight: 700; margin-top: 20px; font-size: 32px;">Case Study</p>
+                  <p style="font-size: 24px; font-weight: 400;">Industrial Automation Company​</p>
+              </div>
+              <div class="container-space">
+                  <div class="container-content">
+                      <ul>
+                          <li>
+                            Achieved full visibility for the first time on the company's €2B+ annual spend and enabled 12-month spend forecasting, regular savings tracking against budget, and monitoring of spend KPIs across over 70 business units.
+                          </li>
+                          <br>
+                          <li>
+                            Identified potential savings opportunities of over ~5% of the company's total spend by providing enhanced spend visibility and analysis.  
+                          </li>
+                          <br>
+                          <li>
+                            Implemented comprehensive, AI-driven dashboards with over 40 different views/analyses to provide in-depth visibility into spend and savings across business units, categories, geographies, and vendors. Rolled out user-friendly global spend and savings dashboards to key procurement and finance users company wide. 
+                          </li>
+                      </ul>
+                      <br>
+                      <button class="button-header">Read More &nbsp; >></button>
+                      <br><br><br>
+                  </div>
+                  <div class="content-space">
+                      <p style="font-family: Satoshi; font-size: 20px; font-weight: 500; font-style: italic; text-align: justify;">
+                        “STATXO helped us to establish full visibility of our global direct & indirect spend and to align the organization behind a well-defined opportunity. They understood our internal complexity and provided us very efficient dashboards (spend and savings) including actionable category playbooks and drove clarity of our strategic plan."<br><br>-CPO, Global Procurement
+
+              </div>
+          </div>
+          <!-- Slide 3 -->
+      
+      </div>
+          <div class="slide">
+              <div class="header-content" id="container4">
+                  <br>
+                  <p style="background: linear-gradient(90deg, #A3246E, #B34526); -webkit-background-clip: text; background-clip: text; color: transparent; font-weight: 700; margin-top: 20px; font-size: 32px;">Case Study</p>
+                  <p style="font-size: 24px; font-weight: 400;">Global Chemical Company </p>
+              </div>
+              <div class="container-space">
+                  <div class="container-content">
+                      <ul>
+                          <li>
+                            Developed customized, interactive visual dashboards in Tableau offering actionable insights on procuring tail materials, facilitating decision-making at various organizational levels.                           </li>
+                          <br>
+                          <li>
+                            Implemented end-to-end automation of data integration and visualization processes to enhance efficiency
+                          </li>
+                          <br>
+                          <li>
+                            Delivered insights and recommendations that enabled the client to achieve significant savings, including: 
+                          <ul style="margin-left: 20px;">
+                            <li>
+                              8-10% savings through renegotiations/reverse auctions </li>
+                              <li>8-12% reduction in price differences between contracted and non-contracted suppliers </li>
+                              <li>Overall savings of €60 million for the client in the first year</li>
+
+                            </li>
+                          </ul>
+                          </li>                      </ul>
+                      <br>
+                      <button class="button-header">Read More &nbsp; >></button>
+                      <br><br><br>
+                  </div>
+                  <div class="content-space">
+                      <p style="font-family: Satoshi; font-size: 20px; font-weight: 500; font-style: italic; text-align: justify;">
+                        “Impressed by the professionalism and efficiency demonstrated by the STATXO team throughout the project. Their strategic recommendations significantly enhanced our procurement processes. The structured approach helped us to achieve savings."<br><br>-Director, Supply Chain 
+
+              </div>
+          </div>
+          <!-- Slide 3 -->
+      
+      </div>
+      </div>
+
+
+    <!-- row-reverse two container -->
+    <!-- <div class="harness">
+      <br />
+      <br />
+      <p style=" font-size: 18px;">
+        <span style="font-size: 32px; font-weight: 600;">Our Methodology<br></span>
+        Maximize strategic impact through personalized intelligence advisory.           
+       
+       </p>
+     <br>
+      <button class="partner-button"  >Book a Consulation >> </button>
+      
+    </div> -->
+    <!-- <div class="container-reverse" id="container5"> -->
+      <!-- <div class="scrollable-container">
+
+        <img src="./top-bottom/Group 74.png" alt="Large Image" class="image-reverse">
+        <img src="./top-bottom/Group 75.png" alt="Large Image" class="image-reverse">
+        <img src="./top-bottom/Group 76.png" alt="Large Image" class="image-reverse">
+        <img src="./top-bottom/FLOW 1 1.png" alt="Large Image" class="image-reverse">
+    
+      </div>
+        -->
+
+        <!-- <div class="content-reverse">
+            <h1 style="color: #a3246e;">Optimize Workflows Now </h1>
+            <br>
+            <p>We can accelerate your processes with intelligence. Contact our experts to start your process transformation journey today. </p>
+            <br>
+          
+            <button class="button-reverse">Transform Now   >> </button>
+        </div>
+    </div> -->
+
+     <!-- Main content of the page -->
+     <footer>
+      <div class="footer-content">
+          <div class="section" >
+
+              <img src="./assets/logo.png" >
+          </div>
+          <div class="section" style="font-size: 24px; font-weight: 900;">
+         
+              <ul>
+                  <li><a href="#">Product</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Solutions</a></li>
+                  <li><a href="#">Resources</a></li>
+                  <li><a href="#">Company</a></li>
+                 
+              </ul>
+          </div>
+          <div class="section">
+              <h3>Contact Us</h3>
+              <p><strong>United States Address</strong><br>200S 1350E Lehi, Utah 84043</p>
+              <p><strong>Romania Address</strong><br>Cluj Napoca, Romania – 400609</p>
+          </div>
+          <div class="section">
+              <h3>India Address</h3>
+              <p>152, Tower B2, Spaze iTech, Sohna Road<br>Gurgaon, Haryana-122018, India</p>
+              <p>Contact No: +91-9999992370</p>
+          </div>
+          <div class="section" style="font-size: xxx-large; ">
+              <a href="https://www.linkedin.com/company/statxo/" target="_blank" class="social-icon" style="color: #A3246E;" ><i class="fab fa-linkedin"></i></a>
+              <a href="https://www.youtube.com/channel/UCw36_kExazZ4M3qMtLlCYFQ" target="_blank" class="social-icon" style="color: #A3246E;"><i class="fab fa-youtube"></i></a>
+              <a href="mailto:info@statxo.com" target="_blank" class="social-icon" style="color: #A3246E;"><i class="fas fa-envelope"></i></a>
+          </div>
+         
+      </div>
+      <div class="footer-bottom">
+          <p>&copy; 2024 Statxo. All rights reserved.</p>
+      </div>
+  </footer>
+    <script>
+      function scrollToContainer(containerId) {
+  var container = document.getElementById(containerId);
+  container.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+// document.addEventListener("DOMContentLoaded", () => {
+//  function counter(id, start, end, duration) {
+//   let obj = document.getElementById(id),
+//    current = start,
+//    range = end - start,
+//    increment = end > start ? 1 : -1,
+//    step = Math.abs(Math.floor(duration / range)),
+//    timer = setInterval(() => {
+//     current += increment;
+//     obj.textContent = current;
+//     if (current == end) {
+//      clearInterval(timer);
+//     }
+//    }, step);
+//  }
+//  counter("count1", 1, 73);
+//  counter("count2", 1, 10);
+//  counter("count3", 0, 60);
+//   counter("count4", 0, 80);
+//   counter("count4", 0, 3.1);
+// });
+
+  </script>
+     <script>
+      document.querySelector('.logo').addEventListener('click', function() {
+document.querySelector('.menu').classList.toggle('active');
+});
+
+    </script>
+        <script>
+          function toggleMenu() {
+            const navbar = document.querySelector('.menu');
+            const contentContainer = document.querySelector('.overall-container');
+        
+            navbar.classList.toggle('open');
+            contentContainer.classList.toggle('pushed-down');
+        }
+        
+        </script>
+  <script src="./script.js"></script>
+  <script >
+    // Get the button element and the popup form element
+const openFormButton = document.getElementById('openForm');
+const closeFormButton = document.getElementById('closeForm');
+const popupForm = document.getElementById('contactForm');
+
+// Function to open the popup form
+openFormButton.addEventListener('click', function() {
+popupForm.style.display = 'block';
+});
+
+// Function to close the popup form
+closeFormButton.addEventListener('click', function() {
+popupForm.style.display = 'none';
+});
+
+// Close the popup form if user clicks outside of it
+window.addEventListener('click', function(event) {
+if (event.target == popupForm) {
+popupForm.style.display = 'none';
+}
+});
+
+</script>
+</body>
+</html>

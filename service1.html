@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STATXO - Solutions</title>
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="service.css" />
+    <link rel="stylesheet" href="contact.css" />
+
+</head>
+<body>
+     <!-- header section -->
+     <header>    
+       <div class="logo" onclick="toggleMenu()">
+          <a href="./index.html">
+          <img src="./assets/logo.png" alt="STATX" />
+        
+        </a>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        </div>
+        <nav class="menu">
+          <ul>
+            <li><a href="./product.html">Product</a></li>
+            <li>
+              <a>Solutions</a>
+              <ul class="dropdown">
+                 <li><a href="./service.html">Process Transformation & Optimization</a></li>
+                <li><a href="./service1.html">Advanced Analytics</a></li>
+                <li><a href="./service2.html">Strategic Intelligence & Advisory(SI&A)</a></li>
+                <li><a href="./service3.html">Procurement & Supply Chain Transformation</a></li>
+              </ul>
+            </li>
+            <li><a href="./about.html">Company</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#careers">Careers</a></li>
+          </ul>
+        </nav>
+        
+      </header>
+  
+
+    <!-- service page header container -->
+     <div class="overall-container">
+    <div class="service-container1">
+      <div class="image-container1">
+        <!-- <img src="./services/bg2.png" alt="Big Image" style="width: 80% !important; height: 80% !important; margin-bottom: 80px;"> -->
+        <div class="contact-container" id="contactForm">
+          <form action="#" method="POST">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" required>
+            </div>
+            
+          
+            <div class="form-group">
+                <label for="message">Company Name</label>
+                <input type="text" id="company" name="company" required>
+              </div>
+           
+            <div class="form-group">
+              <label for="category">What Are You Looking For</label>
+              <select id="category" name="category">
+                <option value="general">Process Transformation & Optimization</option>
+                <option value="support">Advanced Analytics</option>
+                <option value="billing">Strategic Intelligence & Advisory(SI&A)</option>
+                <option value="feedback">Procurement & Supply Chain Transformation</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <button type="submit">Submit</button>
+              <button type="button" id="closeForm">Close</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="content-container1">
+        <img src="./services/Group 33.png" />
+        <br>
+        <br>
+        <p class="content-container-heading1">Don't Let Your Data Go to Waste </p>
+        <br>
+        <br>
+        <p  class="content-container-paragraph1"> Realize the transformative power of Gen AI and Machine Learning with Statxo's advanced analytics solutions.
+          <br> Turn your data into a competitive advantage driving quantifiable business value.  </p>
+    <br>
+        <button class="contact-button1" id="openForm">Get Started  >> </button>
+        
+      </div>
+
+    </div>
+
+     <!-- services without scrolling container -->
+     <div class="scrolling-container">
+        <div class="scrolling-text">
+          <span onclick="scrollToContainer('container1')"> <p>Highlights</p></span>
+          <span onclick="scrollToContainer('container2')"> <p>Challenges </p></span>
+          
+          <span onclick="scrollToContainer('container3')"><p>Services</p></span>
+          <span onclick="scrollToContainer('container4')"> <p>Case Study </p></span>
+         
+          <span onclick="scrollToContainer('container5')"> <p>Our Methodology </p></span>
+         
+  
+  
+        </div>
+      </div>
+<br>
+          <!-- heading tag after without scrolling -->
+    <div class="data_heading">
+        <br />
+        <br />
+        <p style="font-size: 32px; font-weight: bold; text-align: center;">
+          Go From <span style="background: linear-gradient(90deg, #A3246E, #B34526); -webkit-background-clip: text;
+            background-clip: text;  color: transparent;">Insights to Intelligent Action </span>   <br> with the Transformative Potential of Data Analytics
+          </p>
+    
+      <br>
+<br>
+    </div>
+
+    <!-- static cards container without animation -->
+
+    <div class="cards-containers" id="container1">
+      <div class="cards">
+        <div class="cards-logo">
+          <img src="./services/service2icon/icon 1.png" alt="Logo 1" />
+        </div>
+        <div class="cards-content">
+          <p class="title">Unified Data Intelligence</p>
+          <p class="description">Consolidate siloed data assets into a single source of truth, enabling a 360° view of customers, operations, supply chains, and markets.</p>
+          <!-- <p class="learn-more">Learn more&nbsp; >></p> -->
+        </div>
+      </div>
+      <div class="cards1">
+        <div class="cards-logo">
+          <img src="./services/service2icon/icon 2.png" alt="Logo 2" />
+        </div>
+        <div class="cards-content">
+          <p class="title">AI-Powered Predictive Insights</p>
+          
+          <p class="description"> Leverage AI, Machine Learning, and advanced statistical modeling to accurately forecast demand, customer behavior, pricing impacts, and market dynamics.</p>
+          <!-- <p class="learn-more">Learn more &nbsp; >></p> -->
+        </div>
+      </div>
+      <div class="cards2">
+        <div class="cards-logo">
+          <img src="./services/service2icon/icon 3.png" alt="Logo 3" />
+        </div>
+        <div class="cards-content">
+          <p class="title">Prescriptive Decision Support</p>
+          
+          <p class="description"> Gain  recommendations on marketing strategies, pricing models, procurement  decisions, supply  chain optimization, and inventory / assortment planning. </p>
+          <!-- <p class="learn-more">Learn more &nbsp; >></p> -->
+        </div>
+      </div>
+      <div class="cards3">
+        <div class="cards-logo">
+          <img src="./services/service2icon/icon 4.png" alt="Logo 4" />
+        </div>
+        <div class="cards-content">
+          <p class="title" style="font-size: 18px;" >Cross-Functional Analytics Mastery</p>
+          <p class="description">Benefit from our multi-disciplinary team's combined expertise in cutting-edge analytics and deep domain knowledge across marketing, sales, finance, and operations. </p>
+          <!-- <p class="learn-more">Learn more &nbsp; >></p> -->
+        </div>
+      </div>
+      <div class="cards4">
+        <div class="cards-logo">
+          <img src="./services/service2icon/icon 5.png" alt="Logo 5" />
+        </div>
+        <div class="cards-content">
+          <p class="title">Accelerated Value Realization</p>
+          <p class="description">Rapidly unlock data-driven insights and ROI through our agile approach, automated reporting, intuitive dashboards, and self-service analytics capabilities. </p>
+          <!-- <p class="learn-more">Learn more &nbsp; >></p> -->
+        </div>
+      </div>
+    </div>
+
+
+
+    <br>
+    <br>
+
+
+
+
+
+
+    <!-- full container image -->
+    <section class="counter-wrapper"  id="container2">
+      <div class="counter-inner">
+          <div class="counter-container">
+              <div class="counter-item">
+                  <i class="bi bi-building count-icon"></i>
+                  <div class="py-2 count">
+                      <span id="count1">0.5</span>%
+                  </div>
+                  <div><span style="font-weight: 900;">of employees report</span> using multiple applications daily to complete a single task. This fragmentation leads to errors and inefficiency. </div>
+              </div>
+              <div class="counter-item">
+                  <i class="bi bi-people count-icon"></i>
+                  <div class="py-2 count">
+                    
+                      <span id="count2">10</span> Million
+                  </div>
+                  <div> of <span style="font-weight: 900;">productivity is lost</span>  by businesses due to fragmented processes.</div>
+                  <br>
+              
+              </div>
+              <div class="counter-item">
+                  <i class="bi bi-trophy count-icon"></i>
+                  <div class="py-2 count">
+                      <span id="count3">60</span>%
+                  </div>
+                  <div>of <span style="font-weight: 900;">process documentation is inaccurate or outdated,</span> leading to inefficiencies in process improvement efforts.</div>
+              </div>
+              <div class="counter-item">
+                  <i class="bi bi-graph-up count-icon"></i>
+                  <div class="py-2 count">
+                      <span id="count4">60</span>%
+                  </div>
+                  <div>of <span style="font-weight: 900;">repetitive tasks can be automated</span> with RPA, leading to significant cost savings.</div>
+                  <br>
+              </div>
+              <div class="counter-item">
+                  <i class="bi bi-globe count-icon"></i>
+                  <div class="py-2 count">
+                      $<span id="count5">3.1</span>Trillion
+                  </div>
+                  <div>of <span style="font-weight: 900;">an employee's time can be saved</span> through process automation, allowing them to focus on higher-value tasks.</div>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+
+     <!-- heading tag after static container -->
+     <div class="data_headings" id="container3">
+        <br />
+        <br />
+        <p style="font-size: 32px; font-weight: bold; margin: 20px 0px 0px 0; text-align: center;">
+           <span style=" font-size: 32px;  font-weight: 700; margin-bottom: 10px; background: linear-gradient(270deg, #A3246E, #B34526); -webkit-background-clip: text;
+background-clip: text;  color: transparent;">Data-Driven Excellence </span><br />
+           <p style="font-size: 20px; margin-bottom: 30px;">Leverage domain-specific Advanced Analytics capabilities to extract maximum value from your data assets.</p>
+          </p>
+     
+      <br>
+<br>
+    </div>
+    <!-- card container 3 x 2 -->
+
+
+
+    <div class="card-section1">
+      <section class="grid">
+  
+        <a class="card"  target="_blank" rel="nofollow noopener">
+          <picture class="card__picture">
+            <img class="card__image" src="./services/service2card/1.jpg" alt="image">
+          </picture>
+          <!-- <span class="card__more"></span> -->
+          <div class="card__content">
+            <!-- <p class="card__location">Intelligent Spend Analytics & Forecasting</p> -->
+            <h3 class="card__title">Acquire, Retain and Grow Your Customer</h3>
+            <p class="card__description">Base Integrate multi-channel customer data to gain a unified 360° view. Analyze behavior patterns and preferences to drive effective segmentation, targeting, personalization and customer experience strategies.</p>
+          </div>
+        </a>
+      
+        <a class="card"  target="_blank" rel="nofollow noopener">
+          <picture class="card__picture">
+            <img class="card__image" style="height: 100%;" src="./services/15321.jpg" alt="image">
+          </picture>
+          <!-- <span class="card__more"></span> -->
+          <div class="card__content">
+            <h3 class="card__title">Develop Profit-Maximizing Pricing Strategies</h3>
+            <p class="card__description">Through intelligent automation and process integration, we deliver seamless, standardized workflow experiences across teams.</p>
+          </div>
+        </a>
+      
+        <a class="card" target="_blank" rel="nofollow noopener">
+          <picture class="card__picture">
+            <img class="card__image" src="./services/service2card/3.jpg" alt="RPS" >
+          </picture>
+          <!-- <span class="card__more"></span> -->
+          <div class="card__content">
+            <h3 class="card__title">Enable Smarter Sourcing and Supplier Management</h3>
+            <p class="card__description">Gain visibility into sourcing markets, supplier performance metrics and spend data. Identify cost optimization opportunities and make strategic decisions on supplier selection, negotiations and contracts.
+            </p>
+          </div>
+        </a>
+      
+        <a class="card" target="_blank" rel="nofollow noopener">
+          <picture class="card__picture">
+            <img class="card__image" src="./services/service2card/4.jpg" alt="Image1" >
+          </picture>
+          <!-- <span class="card__more"></span> -->
+          <div class="card__content">
+  
+            <h3 class="card__title">Optimize Inventory for Improved Profitability</h3>
+            <p class="card__description">Our change management approach provides thorough training to ensure rapid and lasting adoption of new processes. </p>
+          </div>
+        </a>
+    
+  
+  
+   
+        <a class="card" target="_blank" rel="nofollow noopener">
+          <picture class="card__picture">
+            <img class="card__image" src="./services/service2card/5.jpg" alt="Image" >
+          </picture>
+          <!-- <span class="card__more"></span> -->
+          <div class="card__content">
+  
+            <h3 class="card__title">Curate the Ideal Product Assortment </h3>
+            <p class="card__description">Determine the right product mix to offer across channels and locations through data-driven assortment optimization, considering customer insights, market trends and financial goals.z`</p>
+          </div>
+        </a>
+    
+  
+        </section>
+  
+  </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="slider">
+      <div class="slides">
+          <!-- Slide 1 -->
+          <div class="slide">
+              <div class="header-content" id="container4">
+                  <br>
+                  <p style="background: linear-gradient(90deg, #A3246E, #B34526); -webkit-background-clip: text; background-clip: text; color: transparent; font-weight: 700; margin-top: 20px; font-size: 32px;">Case Study</p>
+                  <p style="font-size: 24px; font-weight: 400;">Global Industrial Automation Company</p>
+              </div>
+              <div class="container-space">
+                  <div class="container-content">
+                      <ul>
+                          <li>Achieved substantial cost savings of approximately $5 million through optimized operations and shared services  </li>
+                          <br>
+                          <li>Standardized global processes across business functions—from Finance and Procurement to HR and IT</li>
+                          <br>
+                          <li>Enabled data-driven decision making with improved analytics across spend, suppliers, tail spend and integrated KPI reporting</li>
+                      </ul>
+                      <br>
+                      <button class="button-header">Read More &nbsp; >></button>
+                      <br><br><br>
+                  </div>
+                  <div class="content-space">
+                      <p style="font-family: Satoshi; font-size: 20px; font-weight: 500; font-style: italic; text-align: justify;">“STATXO’s team helped us achieve significant improvement in item management, reducing the Item Master size, and boosting data quality by 95%. This has led to improved data transparency, better analytics insights, streamlined operations, and enhanced our overall business efficiency.”<br><br>-VP, Procurement 
+                      </p>
+                  </div>
+              </div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="slide">
+              <div class="header-content" id="container4">
+                  <br>
+                  <p style="background: linear-gradient(90deg, #A3246E, #B34526); -webkit-background-clip: text; background-clip: text; color: transparent; font-weight: 700; margin-top: 20px; font-size: 32px;">Case Study</p>
+                  <p style="font-size: 24px; font-weight: 400;"> Beauty Care Company​</p>
+              </div>
+              <div class="container-space">
+                  <div class="container-content">
+                      <ul>
+                          <li>
+                            Achieved 90% accuracy in oil classification and calculation, providing the beauty care company with comprehensive and reliable insights into the oil market size. </li>
+                          <br>
+                          <li>
+                            Delivered deep visibility into retail sales data and accurate estimation of the oil market size by integrating disparate data sources, conducting data enrichment, and implementing structured segmentation processes.
+                          </li>
+                          <br>
+                          <li>
+                            Implemented a user-friendly Qlik Sense dashboard that empowered the client to make informed strategic decisions swiftly by presenting retail sales and oil market insights in an accessible and interactive format.                     </li>
+                      </ul>
+                      <br>
+                      <button class="button-header">Read More &nbsp; >></button>
+                      <br><br><br>
+                  </div>
+                  <div class="content-space">
+                      <p style="font-family: Satoshi; font-size: 20px; font-weight: 500; font-style: italic; text-align: justify;">
+                        “STATXO's accuracy in oil classification, deep insights into retail sales, and effective segmentation strategies have been invaluable. Their user-friendly dashboard streamlined decision-making, while their structured data approach ensured ongoing analysis "<br><br>-Director, Strategy
+              </div>
+          </div>
+          <!-- Slide 3 -->
+      
+      </div>
+          <div class="slide">
+              <div class="header-content" id="container4">
+                  <br>
+                  <p style="background: linear-gradient(90deg, #A3246E, #B34526); -webkit-background-clip: text; background-clip: text; color: transparent; font-weight: 700; margin-top: 20px; font-size: 32px;">Case Study</p>
+                  <p style="font-size: 24px; font-weight: 400;">Fashion Retail Chain​</p>
+              </div>
+              <div class="container-space">
+                  <div class="container-content">
+                      <ul>
+                          <li>
+                            Established unparalleled market intelligence by enabling regular tracking of SKUs and optimizing stock levels through STATXO's custom cloud platform.                         </li>
+                          <br>
+                          <li>
+                            Achieved approximately 90% accuracy in demand forecasting, enhancing distribution planning and process efficiency.
+                          </li>
+                          <br>
+                          <li>
+                            Empowered category and product managers with real-time insights from the cloud analytics platform, enabling optimized stock level decisions, informed decision-making, and improved sales performance.                        </li>
+                      </ul>
+                      <br>
+                      <button class="button-header">Read More &nbsp; >></button>
+                      <br><br><br>
+                  </div>
+                  <div class="content-space">
+                      <p style="font-family: Satoshi; font-size: 20px; font-weight: 500; font-style: italic; text-align: justify;">
+                        “STATXO's expertise has brought a remarkable shift in our operations and planning. They understood our challenges and delivered tailored strategies to optimize our assortment and reduce inventory costs. Their approach to addressing intermittent demand and assortment instability has streamlined our inventory management and boosted sales. We appreciate their partnership and the positive impact on our business. "<br><br>-Senior Manager, Head of Sales EMEA
+              </div>
+          </div>
+          <!-- Slide 3 -->
+      
+      </div>
+      </div>
+      </div>
+
+
+
+    <!-- row-reverse two container -->
+    <!-- <div class="harness" >
+      <br />
+      <br />
+      <p style=" font-size: 18px;">
+        <span style="font-size: 32px; font-weight: 600;">Optimize Workflows Now<br></span>
+        We can accelerate your processes with intelligence. Contact our experts to start your process transformation journey today. </p>
+           
+       
+       </p>
+     
+      <button class="partner-button" >Transform Now >> </button>
+      
+    </div> -->
+    <!-- <div class="container-reverse" id="container5"> -->
+      <!-- <div class="scrollable-container">
+
+        <img src="./top-bottom/Group 74.png" alt="Large Image" class="image-reverse">
+        <img src="./top-bottom/Group 75.png" alt="Large Image" class="image-reverse">
+        <img src="./top-bottom/Group 76.png" alt="Large Image" class="image-reverse">
+        <img src="./top-bottom/FLOW 1 1.png" alt="Large Image" class="image-reverse">
+    
+      </div>
+        -->
+
+        <!-- <div class="content-reverse">
+            <h1 style="color: #a3246e;">Optimize Workflows Now </h1>
+            <br>
+            <p>We can accelerate your processes with intelligence. Contact our experts to start your process transformation journey today. </p>
+            <br>
+          
+            <button class="button-reverse">Transform Now   >> </button>
+        </div>
+    </div> -->
+
+     <!-- Main content of the page -->
+     <footer>
+      <div class="footer-content">
+          <div class="section" >
+
+              <img src="./assets/logo.png" >
+          </div>
+          <div class="section" style="font-size: 24px; font-weight: 900;">
+         
+              <ul>
+                  <li><a href="#">Product</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Solutions</a></li>
+                  <li><a href="#">Resources</a></li>
+                  <li><a href="#">Company</a></li>
+                 
+              </ul>
+          </div>
+          <div class="section">
+              <h3>Contact Us</h3>
+              <p><strong>United States Address</strong><br>200S 1350E Lehi, Utah 84043</p>
+              <p><strong>Romania Address</strong><br>Cluj Napoca, Romania – 400609</p>
+          </div>
+          <div class="section">
+              <h3>India Address</h3>
+              <p>152, Tower B2, Spaze iTech, Sohna Road<br>Gurgaon, Haryana-122018, India</p>
+              <p>Contact No: +91-9999992370</p>
+          </div>
+          <div class="section" style="font-size: xxx-large;">
+              <a href="https://www.linkedin.com/company/statxo/" target="_blank" class="social-icon" style="color: #A3246E;"><i class="fab fa-linkedin"></i></a>
+              <a href="https://www.youtube.com/channel/UCw36_kExazZ4M3qMtLlCYFQ" target="_blank" class="social-icon" style="color: #A3246E;"><i class="fab fa-youtube"></i></a>
+              <a href="mailto:info@statxo.com" target="_blank" class="social-icon" style="color: #A3246E;"><i class="fas fa-envelope"></i></a>
+          </div>
+         
+      </div>
+      <div class="footer-bottom">
+          <p>&copy; 2024 Statxo. All rights reserved.</p>
+      </div>
+  </footer>
+    <script>
+      function scrollToContainer(containerId) {
+  var container = document.getElementById(containerId);
+  container.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+// document.addEventListener("DOMContentLoaded", () => {
+//  function counter(id, start, end, duration) {
+//   let obj = document.getElementById(id),
+//    current = start,
+//    range = end - start,
+//    increment = end > start ? 1 : -1,
+//    step = Math.abs(Math.floor(duration / range)),
+//    timer = setInterval(() => {
+//     current += increment;
+//     obj.textContent = current;
+//     if (current == end) {
+//      clearInterval(timer);
+//     }
+//    }, step);
+//  }
+//  counter("count1", 1, 73);
+//  counter("count2", 1, 10);
+//  counter("count3", 0, 60);
+//   counter("count4", 0, 80);
+//   counter("count4", 0, 3.1);
+// });
+
+  </script>
+     <script>
+      document.querySelector('.logo').addEventListener('click', function() {
+document.querySelector('.menu').classList.toggle('active');
+});
+
+    </script>
+        <script>
+          function toggleMenu() {
+            const navbar = document.querySelector('.menu');
+            const contentContainer = document.querySelector('.overall-container');
+        
+            navbar.classList.toggle('open');
+            contentContainer.classList.toggle('pushed-down');
+        }
+        
+        </script>
+  <script src="./script.js"></script>
+  <script >
+    // Get the button element and the popup form element
+const openFormButton = document.getElementById('openForm');
+const closeFormButton = document.getElementById('closeForm');
+const popupForm = document.getElementById('contactForm');
+
+// Function to open the popup form
+openFormButton.addEventListener('click', function() {
+popupForm.style.display = 'block';
+});
+
+// Function to close the popup form
+closeFormButton.addEventListener('click', function() {
+popupForm.style.display = 'none';
+});
+
+// Close the popup form if user clicks outside of it
+window.addEventListener('click', function(event) {
+if (event.target == popupForm) {
+popupForm.style.display = 'none';
+}
+});
+
+</script>
+</body>
+</html>

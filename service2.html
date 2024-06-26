@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STATXO - Solutions</title>
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="service.css" />
+    <link rel="stylesheet" href="contact.css" />
+
+</head>
+<body>
+     <!-- header section -->
+     <header>    
+       <div class="logo" onclick="toggleMenu()">
+          <a href="./index.html">
+          <img src="./assets/logo.png" alt="STATX" />
+       
+        </a>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        </div>
+        <nav class="menu">
+          <ul>
+            <li><a href="./product.html">Product</a></li>
+            <li>
+              <a>Solutions</a>
+              <ul class="dropdown">
+                 <li><a href="./service.html">Process Transformation & Optimization</a></li>
+                <li><a href="./service1.html">Advanced Analytics</a></li>
+                <li><a href="./service2.html">Strategic Intelligence & Advisory(SI&A)</a></li>
+                <li><a href="./service3.html">Procurement & Supply Chain Transformation</a></li>
+              </ul>
+            </li>
+            <li><a href="./about.html">Company</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#careers">Careers</a></li>
+          </ul>
+        </nav>
+        
+      </header>
+  
+
+
+
+
+    <!-- service page header container -->
+<div class="overall-container">
+    <div class="service-container2" style="height: 670px;">
+      <div class="image-container1">
+        <!-- <img src="./services/bg3.png" alt="Big Image" style="width: 80% !important; height: 95% !important;"> -->
+        <div class="contact-container" id="contactForm">
+          <form action="#" method="POST">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" required>
+            </div>
+            
+          
+            <div class="form-group">
+                <label for="message">Company Name</label>
+                <input type="text" id="company" name="company" required>
+              </div>
+           
+            <div class="form-group">
+              <label for="category">What Are You Looking For</label>
+              <select id="category" name="category">
+                <option value="general">Process Transformation & Optimization</option>
+                <option value="support">Advanced Analytics</option>
+                <option value="billing">Strategic Intelligence & Advisory(SI&A)</option>
+                <option value="feedback">Procurement & Supply Chain Transformation</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <button type="submit">Submit</button>
+              <button type="button" id="closeForm">Close</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="content-container1">
+        <img src="./services/Group 33.png" />
+        <br>
+        <br>
+        <p class="content-container-heading1">Seeking Actionable Insights for Strategic Advantage?</p>
+        <br>
+        <br>
+        <p  class="content-container-paragraph1">Statxo's Strategic Intelligence & Advisory (SI&A) Solutions, powered by a unique blend of human expertise and generative AI, equip you with in-depth market and industry insights, trend analysis, and strategic recommendations to drive informed decision-making and fuel business growth.</p>
+    <br>
+        <button class="contact-button1" id="openForm">Accelerate Now >></button>
+        
+      </div>
+
+    </div>
+
+
+
+
+
+   
+
+
+
+     <!-- services without scrolling container -->
+     <div class="scrolling-container">
+        <div class="scrolling-text">
+          <span onclick="scrollToContainer('container1')"> <p>Highlights</p></span>
+          <span onclick="scrollToContainer('container2')"> <p>Challenges </p></span>
+          
+          <span onclick="scrollToContainer('container3')"><p>Services</p></span>
+          <span onclick="scrollToContainer('container4')"> <p>Case Study </p></span>
+         
+          <span onclick="scrollToContainer('container5')"> <p>Our Methodology </p></span>
+         
+  
+  
+        </div>
+      </div>
+<br>
+          <!-- heading tag after without scrolling -->
+    <div class="data_heading">
+        <br />
+        <br />
+        <p style="font-size: 32px; font-weight: bold; text-align: center;">
+          <span style="background: linear-gradient(90deg, #A3246E, #B34526); -webkit-background-clip: text;
+            background-clip: text;  color: transparent;">Make faster, more informed decisions</span> and create a <br>decisive competitive advantage in your market.
+          </p>
+    
+      <br>
+<br>
+    </div>
+
+    <!-- static cards container without animation -->
+    <div class="cards-containers" id="container1">
+      <div class="cards">
+        <div class="cards-logo">
+          <img src="./services/service3icon/POINT 1.png" alt="Logo 1" />
+        </div>
+        <div class="cards-content">
+          <p class="title">Comprehensive <br>Market Insights</p>
+          <p class="description">Gain an in-depth understanding of market dynamics, trends, and competitive landscapes, enabling informed decision-making and strategic planning.</p>
+          <!-- <p class="learn-more">Learn more&nbsp; >></p> -->
+        </div>
+      </div>
+      <div class="cards1">
+        <div class="cards-logo">
+          <img src="./services/service3icon/POINT 2.png" alt="Logo 2" />
+        </div>
+        <div class="cards-content">
+          <p class="title">Accurate Forecasting and Planning</p>
+          <p class="description">Leverage reliable market sizing and forecasting capabilities to anticipate future demand, allocate resources effectively, and optimize growth strategies.</p>
+          <!-- <p class="learn-more">Learn more &nbsp; >></p> -->
+        </div>
+      </div>
+      <div class="cards2">
+        <div class="cards-logo">
+          <img src="./services/service3icon/POINT 5.png" alt="Logo 3" />
+        </div>
+        <div class="cards-content">
+          <p class="title">Opportunity<br> Identification</p>
+          <p class="description">Identify lucrative market opportunities, emerging trends, and potential growth areas, allowing businesses to stay ahead of the curve and capitalize on new developments.</p>
+          <!-- <p class="learn-more">Learn more &nbsp; >></p> -->
+        </div>
+      </div>
+      <div class="cards3">
+        <div class="cards-logo">
+          <img src="./services/service3icon/POINT 4.png" alt="Logo 4" />
+        </div>
+        <div class="cards-content">
+          <p class="title">Competitive<br> Advantage</p>
+          <p class="description">Gain a comprehensive understanding of competitors' strategies, strengths, and weaknesses, enabling businesses to develop effective countermeasures and maintain a competitive edge.</p>
+          <!-- <p class="learn-more">Learn more &nbsp; >></p> -->
+        </div>
+      </div>
+      <div class="cards4">
+        <div class="cards-logo">
+          <img src="./services/service3icon/POINT 3.png" alt="Logo 5" />
+        </div>
+        <div class="cards-content">
+          <p class="title">Regulatory Compliance and Risk Mitigation</p>
+          <p class="description">Stay compliant with relevant regulations, track industry-specific legislative changes, and proactively manage potential risks through robust regulatory tracking and impact assessment.</p>
+          <!-- <p class="learn-more">Learn more &nbsp; >></p> -->
+        </div>
+      </div>
+    </div>
+    
+    <br>
+    <br>
+
+    <!-- full container image -->
+    <section class="counter-wrapper">
+      <div class="counter-inner">
+          <div class="counter-container">
+              <div class="counter-item">
+                  <i class="bi bi-building count-icon"></i>
+                  <div class="py-2 count">
+                      <span id="count1">40</span>%
+                  </div>
+                  <div>of <span style="font-weight: 900;">new product launches fail</span>  due to a lack of proper market research, according to a 2022 study by Gartner.</div>
+
+              </div>
+              <div class="counter-item">
+                  <i class="bi bi-people count-icon"></i>
+                  <div class="py-2 count">
+                    
+                      <span id="count2">26</span>%
+                  </div>
+
+                  <div>of <span style="font-weight: 900;"> businesses are satisfied with their ability</span>  to translate data into actionable insights, indicating a significant gap between data collection and its practical application, as found in a study by Forrester Research in 2021.</div>
+                  <br>
+              
+              </div>
+              <div class="counter-item">
+                  <i class="bi bi-trophy count-icon"></i>
+                  <div class="py-2 count">
+                      <span id="count3">100</span> million
+                  </div>
+                  <div> <span style="font-weight: 900;"> is the average cost to companies due to poor innovation choices,</span>  according to a study by McKinsey & Company.</div>
+
+              </div>
+              <div class="counter-item">
+                  <i class="bi bi-graph-up count-icon"></i>
+                  <div class="py-2 count">
+                      <span id="count4">6</span>%
+                  </div>
+                  <div> <span style="font-weight: 900;">is the average improvement achieved by companies</span>  that effectively benchmark their performance against competitors, revealed a study by the American Productivity & Quality Center (APQC).
+                  </div>
+                  <br>
+              </div>
+              <div class="counter-item">
+                  <i class="bi bi-globe count-icon"></i>
+                  <div class="py-2 count">
+                      $<span id="count5">3.1</span>Trillion
+                  </div>
+                  <div>of <span style="font-weight: 900;">an employee's time</span>  can be saved through process automation, allowing them to focus on higher-value tasks.</div>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+
+     <!-- heading tag after static container -->
+     <div class="data_headings" id="container3" style=" text-align: center;">
+        <br />
+        <br />
+        <p style="font-size: 32px; font-weight: bold; margin: 20px 0px 0px 0;">
+           <span style=" font-size: 32px;  font-weight: 700; margin-bottom: 10px; background: linear-gradient(270deg, #A3246E, #B34526); -webkit-background-clip: text;
+background-clip: text;  color: transparent;">Fuel Growth with Market Intelligence </span><br />
+           <p style="font-size: 20px; margin-bottom: 30px;">Master your market with intelligence-backed insights, reliable forecasts, opportunity mapping, competitive strengths,<br> regulatory vigilance, and innovation facilitation for sustainable growth.</p>
+     
+      <br>
+<br>
+    </div>
+    <!-- card container 3 x 2 -->
+
+
+    <div class="card-section1">
+      <section class="grid">
+  
+        <a class="card"  target="_blank" rel="nofollow noopener">
+          <picture class="card__picture">
+            <img class="card__image" src="./services/service3card/1.jpg" alt="image">
+          </picture>
+          <!-- <span class="card__more"></span> -->
+          <div class="card__content">
+            <!-- <p class="card__location">Intelligent Spend Analytics & Forecasting</p> -->
+            <h3 class="card__title">Market and Competitive Intelligence</h3>
+            <p class="card__description">Gain a deep understanding of your industry, competitive landscape, and market dynamics through our comprehensive market and competitive intelligence services.</p>
+          </div>
+        </a>
+      
+        <a class="card"  target="_blank" rel="nofollow noopener">
+          <picture class="card__picture">
+            <img class="card__image" src="./services/12944.jpg" alt="image">
+          </picture>
+          <!-- <span class="card__more"></span> -->
+          <div class="card__content">
+            <h3 class="card__title">ESG & Sustainability Intelligence</h3>
+            <p class="card__description">Embrace sustainable practices and meet ESG goals with our comprehensive ESG and sustainability intelligence solutions, including maturity assessments, decarbonization strategies, waste management, sustainable procurement, and supplier intelligence.</p>
+          </div>
+        </a>
+      
+        <a class="card" target="_blank" rel="nofollow noopener">
+          <picture class="card__picture">
+            <img class="card__image" src="./services/14056.jpg" alt="RPS" >
+          </picture>
+          <!-- <span class="card__more"></span> -->
+          <div class="card__content">
+            <h3 class="card__title">M&A Support</h3>
+            <p class="card__description">Navigate mergers and acquisitions with confidence through our end-to-end M&A support services, including target identification, due diligence, integration assessments, and synergy evaluations.
+            </p>
+          </div>
+        </a>
+      
+        <a class="card" target="_blank" rel="nofollow noopener">
+          <picture class="card__picture">
+            <img class="card__image" src="./services/service3card/4.jpg" alt="Image1" >
+          </picture>
+          <!-- <span class="card__more"></span> -->
+          <div class="card__content">
+  
+            <h3 class="card__title">News Monitoring & Impact Assessment</h3>
+            <p class="card__description">Stay informed and proactive with our AI-powered news monitoring and impact assessment solutions, providing real-time insights from over 500,000 sources.</p>
+          </div>
+        </a>
+    
+  
+  
+   
+        <a class="card" target="_blank" rel="nofollow noopener">
+          <picture class="card__picture">
+            <img class="card__image" src="./services/service3card/5.jpg" alt="Image" >
+          </picture>
+          <!-- <span class="card__more"></span> -->
+          <div class="card__content">
+  
+            <h3 class="card__title">Sales & Partner<br>  Enablement  </h3>
+            <p class="card__description">Boost sales performance and optimize partner relationships with our sales and partner enablement solutions, including account intelligence, prospect identification, predictive lead generation, and campaign analytics.</p>
+          </div>
+        </a>
+    
+  
+        </section>
+  
+  </div>
+  
+
+    <div class="slider">
+      <div class="slides">
+          <!-- Slide 1 -->
+          <div class="slide">
+              <div class="header-content" id="container4">
+                  <br>
+                  <p style="background: linear-gradient(90deg, #A3246E, #B34526); -webkit-background-clip: text; background-clip: text; color: transparent; font-weight: 700; margin-top: 20px; font-size: 32px;">Case Study</p>
+                  <p style="font-size: 24px; font-weight: 400;">Food and Beverage Processing and Packaging Machinery OEM</p>
+              </div>
+              <div class="container-space">
+                  <div class="container-content">
+                      <ul>
+                        <li>
+                          Conducted an extensive 360-degree competitive assessment examining the digital engineering tools, platforms, and  capabilities of 10 global competitors in the food and beverage processing / packaging machinery industry. This benchmarking enabled the client to understand their relative market positioning.           <br><br>
+                        <li>
+                          Provided strategic recommendations and a roadmap, backed by tangible samples like P&ID diagrams, 3D models, digital twin specifications used by competitors as well as investment/pricing indicators. This facilitated approval from the executive committee. <br>
+                          <br>
+              
+                        <li>
+                          Delivered actionable insights that allowed the client to strategically upgrade their internal engineering systems, tools, and processes to improve customer collaboration, speed of delivery, and enable digital twin technology implementation across product/plant lifecycles.         </ul>
+              
+                      </ul>
+                      <br>
+                      <button class="button-header">Read More &nbsp; >></button>
+                      <br><br><br>
+                  </div>
+                  <div class="content-space">
+                      <p style="font-family: Satoshi; font-size: 20px; font-weight: 500; font-style: italic; text-align: justify;">“Extremely satisfied with the advisory services provided by STATXO. Their expertise in assessing competitors’ engineering tools’ user scale and capabilities has proven vital to our organization. The thorough analysis, insightful recommendations, and prompt communication have significantly enhanced our decision-making process.<br><br> -Director, Engineering Excellence, Platforms & Tools 
+                      </p>
+                  </div>
+              </div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="slide">
+              <div class="header-content" id="container4">
+                  <br>
+                  <p style="background: linear-gradient(90deg, #A3246E, #B34526); -webkit-background-clip: text; background-clip: text; color: transparent; font-weight: 700; margin-top: 20px; font-size: 32px;">Case Study</p>
+                  <p style="font-size: 24px; font-weight: 400;">Leading Medical and Pharmaceutical Device Company</p>
+              </div>
+              <div class="container-space">
+                  <div class="container-content">
+                      <ul>
+                          <li>
+                            Strengthened the client's innovation intelligence capabilities by keeping them updated on the latest sector developments across competitors, clinical areas, and product portfolios through effective news monitoring and filtration powered by AI. 
+                          </li>
+                          <br>
+                          <li>
+                            Provided in-depth news impact analysis, including assessment of impact intensity, overall sentiment, potential opportunities/risks, and expected impact duration - enabling more informed decision-making. 
+ 
+                          </li>
+                          <br>
+                          <li>
+                            Enhanced the client's responsiveness by quickly identifying emerging issues, risks or opportunities that could impact their business, allowing for proactive management of such impacts in near real-time.                           </li>
+                      </ul>
+                      <br>
+                      <button class="button-header">Read More &nbsp; >></button>
+                      <br><br><br>
+                  </div>
+                  <div class="content-space">
+                      <p style="font-family: Satoshi; font-size: 20px; font-weight: 500; font-style: italic; text-align: justify;">
+                        “The AI-based news monitoring tool from STATXO has transformed our innovation intelligence capabilities. By keeping us updated on sector developments it enables deeper analysis and strategic insights. Additionally, its ability to quickly identify emerging issues or opportunities enhances our responsiveness to proactively manage business impact."<br><br>-Director, Innovation Intelligence 
+
+              </div>
+          </div>
+          <!-- Slide 3 -->
+      
+      </div>
+          <div class="slide">
+              <div class="header-content" id="container4">
+                  <br>
+                  <p style="background: linear-gradient(90deg, #A3246E, #B34526); -webkit-background-clip: text; background-clip: text; color: transparent; font-weight: 700; margin-top: 20px; font-size: 32px;">Case Study</p>
+                  <p style="font-size: 24px; font-weight: 400;">Personal Care Company</p>
+              </div>
+              <div class="container-space">
+                  <div class="container-content">
+                      <ul>
+                          <li>
+                            Conducted a comprehensive evaluation of the client's Environmental, Social, and Governance (ESG) maturity by directly comparing their performance against competitors across 6 major parameters and 27 sub-parameters using a custom-made framework.                           </li>
+                          <br>
+                          <li>
+                            Enabled the client to identify key strengths and areas for improvement in their ESG practices by highlighting how they performed relative to competitors across the detailed parameters assessed. 
+                          </li>
+                          <br>
+                          <li>
+                            Facilitated more informed strategic investment decisions for the client by pinpointing high-impact ESG areas to prioritize based on the potential for positive social outcomes and competitive positioning.                      </ul>
+                      <br>
+                      <button class="button-header">Read More &nbsp; >></button>
+                      <br><br><br>
+                  </div>
+                  <div class="content-space">
+                      <p style="font-family: Satoshi; font-size: 20px; font-weight: 500; font-style: italic; text-align: justify;">
+                        “Thanks to STATXO, we assessed our ESG maturity against competitors across multiple parameters and sub-parameters. This highlighted our strengths and weaknesses, guiding us to prioritize impactful areas for better strategic investment decisions. Highly recommended for their expertise in driving sustainable growth."<br><br>-VP, Global Sustainability
+
+              </div>
+          </div>
+          <!-- Slide 3 -->
+      
+      </div>
+      </div>
+
+</div>
+
+
+
+
+    <!-- row-reverse two container -->
+    <!-- <div class="harness" >
+      <br />
+      <br />
+      <p style="font-size: 18px;">
+        <span style="font-size: 32px; font-weight: 600;">Our Methodology<br></span>
+        Maximize strategic impact through personalized intelligence advisory.           
+       
+       </p>
+     <br>
+      <button class="partner-button"  >Book a Consulation >> </button>
+      
+    </div> -->
+    <!-- <div class="container-reverse" id="container5"> -->
+      <!-- <div class="scrollable-container">
+
+        <img src="./top-bottom/Group 74.png" alt="Large Image" class="image-reverse">
+        <img src="./top-bottom/Group 75.png" alt="Large Image" class="image-reverse">
+        <img src="./top-bottom/Group 76.png" alt="Large Image" class="image-reverse">
+        <img src="./top-bottom/FLOW 1 1.png" alt="Large Image" class="image-reverse">
+    
+      </div>
+        -->
+
+        <!-- <div class="content-reverse">
+            <h1 style="color: #a3246e;">Optimize Workflows Now </h1>
+            <br>
+            <p>We can accelerate your processes with intelligence. Contact our experts to start your process transformation journey today. </p>
+            <br>
+          
+            <button class="button-reverse">Transform Now   >> </button>
+        </div>
+    </div> -->
+
+     <!-- Main content of the page -->
+     <footer>
+      <div class="footer-content">
+          <div class="section" >
+
+              <img src="./assets/logo.png" >
+          </div>
+          <div class="section" style="font-size: 24px; font-weight: 900;">
+         
+              <ul>
+                  <li><a href="#">Product</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Solutions</a></li>
+                  <li><a href="#">Resources</a></li>
+                  <li><a href="#">Company</a></li>
+                 
+              </ul>
+          </div>
+          <div class="section">
+              <h3>Contact Us</h3>
+              <p><strong>United States Address</strong><br>200S 1350E Lehi, Utah 84043</p>
+              <p><strong>Romania Address</strong><br>Cluj Napoca, Romania – 400609</p>
+          </div>
+          <div class="section">
+              <h3>India Address</h3>
+              <p>152, Tower B2, Spaze iTech, Sohna Road<br>Gurgaon, Haryana-122018, India</p>
+              <p>Contact No: +91-9999992370</p>
+          </div>
+          <div class="section" style="font-size: xxx-large;">
+              <a href="https://www.linkedin.com/company/statxo/" target="_blank" class="social-icon" style="color: #A3246E;" ><i class="fab fa-linkedin"></i></a>
+              <a href="https://www.youtube.com/channel/UCw36_kExazZ4M3qMtLlCYFQ" target="_blank" class="social-icon" style="color: #A3246E;"><i class="fab fa-youtube"></i></a>
+              <a href="mailto:info@statxo.com" target="_blank" class="social-icon" style="color: #A3246E;"><i class="fas fa-envelope"></i></a>
+          </div>
+         
+      </div>
+      <div class="footer-bottom">
+          <p>&copy; 2024 Statxo. All rights reserved.</p>
+      </div>
+  </footer>
+    <script>
+      function scrollToContainer(containerId) {
+  var container = document.getElementById(containerId);
+  container.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+// document.addEventListener("DOMContentLoaded", () => {
+//  function counter(id, start, end, duration) {
+//   let obj = document.getElementById(id),
+//    current = start,
+//    range = end - start,
+//    increment = end > start ? 1 : -1,
+//    step = Math.abs(Math.floor(duration / range)),
+//    timer = setInterval(() => {
+//     current += increment;
+//     obj.textContent = current;
+//     if (current == end) {
+//      clearInterval(timer);
+//     }
+//    }, step);
+//  }
+//  counter("count1", 1, 73);
+//  counter("count2", 1, 10);
+//  counter("count3", 0, 60);
+//   counter("count4", 0, 80);
+//   counter("count4", 0, 3.1);
+// });
+
+  </script>
+     <script>
+      document.querySelector('.logo').addEventListener('click', function() {
+document.querySelector('.menu').classList.toggle('active');
+});
+
+    </script>
+        <script>
+          function toggleMenu() {
+            const navbar = document.querySelector('.menu');
+            const contentContainer = document.querySelector('.overall-container');
+        
+            navbar.classList.toggle('open');
+            contentContainer.classList.toggle('pushed-down');
+        }
+        
+        </script>
+  <script src="./script.js"></script>
+  <script >
+    // Get the button element and the popup form element
+const openFormButton = document.getElementById('openForm');
+const closeFormButton = document.getElementById('closeForm');
+const popupForm = document.getElementById('contactForm');
+
+// Function to open the popup form
+openFormButton.addEventListener('click', function() {
+popupForm.style.display = 'block';
+});
+
+// Function to close the popup form
+closeFormButton.addEventListener('click', function() {
+popupForm.style.display = 'none';
+});
+
+// Close the popup form if user clicks outside of it
+window.addEventListener('click', function(event) {
+if (event.target == popupForm) {
+popupForm.style.display = 'none';
+}
+});
+
+</script>
+</body>
+</html>
